@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/hybernate_exercise
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show_sql: true
+    hibernate:
+      ddl-auto: create-drop
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
